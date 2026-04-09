@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 df = pd.read_csv('Credit_scoring.csv')
 df_t = df.transpose()
-print(df_t.head)
+print(df_t.head())
 
 cate_columns = df.select_dtypes(include=['object', 'str']).columns
 for col in cate_columns:
