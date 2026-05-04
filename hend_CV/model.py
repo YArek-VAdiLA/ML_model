@@ -17,7 +17,6 @@ SVM_MODEL_PATH = PROJECT_ROOT / "gesture_svm.joblib"
 RF_MODEL_PATH = PROJECT_ROOT / "gesture_rf.joblib"
 LABEL_ENCODER_PATH = PROJECT_ROOT / "label_encoder.joblib"
 
-
 def load_data(csv_path: Path):
     df = pd.read_csv(csv_path)
 

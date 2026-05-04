@@ -1,2 +1,12 @@
 .idea
 .venv
+/hend_CV/annotations/
+/hend_CV/frames/
+/hend_CV/dataset_test.csv
+/hend_CV/dataset_train.csv
+/hend_CV/gesture_rf.joblib
+/hend_CV/gesture_svm.joblib
+/hend_CV/hand_landmarker.task
+/hend_CV/label_encoder.joblib
+
+.DS_Store

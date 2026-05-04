@@ -27,9 +27,7 @@ SELECTED_LABELS = {
 }
 
 SAMPLES_PER_SEGMENT = 10
-
 MIN_VALID_FRAMES = 6
-
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp"}
 
 
